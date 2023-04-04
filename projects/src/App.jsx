@@ -27,7 +27,7 @@ function handleClick(){
       <section className='card--full'>
       {cards}
       </section>
-      <p></p>
+      <p>{ name }</p>
       <button onClick={handleClick}>Click Me!</button>
       
     </div>
