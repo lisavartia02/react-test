@@ -50,10 +50,10 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -83,4 +83,38 @@ button:focus-visible {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.quote--text {
+  width: 250px;
+  margin: auto;
+  
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.boxes{
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #646cff;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
