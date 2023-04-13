@@ -5,6 +5,7 @@ import Cards from "./components/Cards.jsx"
 import data from "./data.js"
 import boxes from "./boxes.js"
 import Box from "./components/Box.jsx"
+import FormData from './components/FormData'
 
 
 function App() {
@@ -56,15 +57,20 @@ const squareElements = squares.map(square => (
   return (
     <div className="App">
       <h1>Hello, World!</h1>
+      <hr />
+
       <section className='card--full'>
       {cards}
       </section>
+      <hr />
+
+      <h2>Quote button</h2>
       <div className='quote--text'>
          <p>{ quote }</p>
       </div>
-     
       <button onClick={handleClick}>Click Me!</button>
       <hr />
+
       <div className="counter">
             <h2>Counter</h2>
             <button className="counter--minus" onClick={subtract}>–</button>
@@ -74,11 +80,14 @@ const squareElements = squares.map(square => (
             <button className="counter--plus" onClick={add}>+</button>
         </div>
         <hr />
+
         <h2>Toggle boxes</h2>
       <div className='boxes'>
         {squareElements}
       </div>
-      
+      <hr />
+
+      <FormData />
       
 
     </div>
