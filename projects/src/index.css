@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  margin-bottom: 400px;
 }
 
 h1 {
@@ -102,6 +103,7 @@ button:focus-visible {
   width: 400px;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -117,4 +119,14 @@ button:focus-visible {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form input {
+  font-size: 30px;
+  margin-right: 10px;
+  padding: 10px 7px;
 }
